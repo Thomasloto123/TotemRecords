@@ -1,0 +1,39 @@
+.bievenidos  {
+    width: 75%;
+    padding-right: 20px;
+    box-sizing: border-box;
+
+}
+
+.testimonios {
+    width: 25%;
+}
+
+.columnas {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bievenidos p {
+    font-size: 20px;
+    font-size: larger;
+}
+
+.testimonio {
+    background-color: #ccc;
+    padding: 20px;
+}
+
+.testimonio .cita {
+    font-weight: bold;
+    font-style: italic;
+    font-size: 19px;
+    display: block;
+}
+
+.testimonio .autor {
+    font-size: 12px;
+    text-align: center;
+    display: block;
+    margin: 7px 0;
+}

@@ -1,0 +1,56 @@
+.historia p {
+    font-size: 20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+/*.TodasPersonas {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Persona {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 18%;
+    text-align: center;
+    padding: 13px;
+    box-sizing: border-box;
+
+}*/
+
+.staff img {
+    border-radius: 50%;
+    max-width: 60%;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+.staff h5{
+   margin: 0;
+    font-size: 22px;
+    color: black;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.staff h6 {
+    margin: 0;
+    font-size: 20px;
+    color: rgba(22, 158, 4, 0.699);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+/*.Persona h5 {
+    font-size: 100px;
+    margin-top: 5px;
+    
+}
+
+.Persona h6 {
+    font-size: 11px;
+    font-style: italic;
+}*/
+
+.staff p {
+    color: black;
+    font-size: 15px;
+    font-style: italic;
+}

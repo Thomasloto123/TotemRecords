@@ -1,0 +1,18 @@
+body {
+    font-family: 'open sans', sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.holder {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+h2 {
+    color: rgb(186, 0, 0);
+    font-weight: 400;
+    font-family: open 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
