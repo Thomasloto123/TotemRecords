@@ -11,6 +11,7 @@ import ContactoPage from './pages/ContactoPage';
 import HomePage from './pages/HomePage';
 import ProductosPage from './pages/ProductosPage';
 import NosotrosPage from './pages/NosotrosPage';
+import NovedadesPage from './pages/NovedadesPage';
 
 
 
@@ -27,6 +28,7 @@ function App() {
           <Route path='/nosotros' element={<NosotrosPage />} />
           <Route path='/contacto' element={<ContactoPage />} />
           <Route path='/productos' element={<ProductosPage />} />
+          <Route path='/novedades' element={<NovedadesPage/>} />
         </Routes>
       </BrowserRouter>
       <Footer />
