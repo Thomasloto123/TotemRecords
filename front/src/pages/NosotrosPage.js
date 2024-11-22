@@ -16,7 +16,7 @@ const NosotrosPage = (props) => {
             <div className="staff">
                 <h2>PRODUCTOR MUSICAL</h2>
                 <div className="persona">
-                    <img src="img/fotod de cvs.jpg" alt="Thomas" width="300"></img>
+                    <img src="img/fotod de cvs.jpg" alt="Thomas" width="300"/>
 
                     <h5>Thomas Elias Loto</h5><br></br>
                     <h6>Productor Musical</h6>

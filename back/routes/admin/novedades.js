@@ -90,7 +90,7 @@ router.get('/eliminar/:id', async (req, res, next) =>{
     res.redirect('/admin/novedades');
 })
 
-router.get('/modficar/:id', async (req, res, next) =>{
+router.get('/modificar/:id', async (req, res, next) =>{
     var id = req.params.id;
     var novedad = await NovedadesModel.getNovedadesId(id);
     res.render('admin/modificar', {

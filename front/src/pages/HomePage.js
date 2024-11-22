@@ -5,7 +5,7 @@ const HomePage = (props) => {
     return (
         <main className="holder">
             <div>
-                <img src="img/beat enigma.png" alt="foto de beat" width= '500'></img>
+                <img src="img/beat enigma.png" alt="foto de beat" width= '500'/>
             </div>
             <div className="columnas">
                 <div className="Bienvenidos">
