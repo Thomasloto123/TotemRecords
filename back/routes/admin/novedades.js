@@ -131,7 +131,7 @@ router.post('/modificar', async (req, res, next) =>{
     } catch (error){
         console.log(error)
         res.render('admin/modificar',{
-            layout: 'admin/layou',  
+            layout: 'admin/layout',  
             error: true,
             message: 'No se modifico la novedad'
         })
