@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1:3306
--- Tiempo de generación: 18-11-2024 a las 22:19:29
+-- Tiempo de generación: 27-11-2024 a las 21:07:06
 -- Versión del servidor: 8.3.0
 -- Versión de PHP: 8.2.18
 
@@ -32,17 +32,18 @@ CREATE TABLE IF NOT EXISTS `novedades` (
   `id` int NOT NULL AUTO_INCREMENT,
   `titulo` varchar(250) NOT NULL,
   `subtitulo` text CHARACTER SET utf8mb3 COLLATE utf8mb3_general_ci NOT NULL,
+  `img_id` varchar(250) CHARACTER SET utf8mb3 COLLATE utf8mb3_general_ci DEFAULT NULL,
   `cuerpo` text NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=3 DEFAULT CHARSET=utf8mb3;
+) ENGINE=MyISAM AUTO_INCREMENT=13 DEFAULT CHARSET=utf8mb3;
 
 --
 -- Volcado de datos para la tabla `novedades`
 --
 
-INSERT INTO `novedades` (`id`, `titulo`, `subtitulo`, `cuerpo`) VALUES
-(1, 'Nuevo Beat Disponible!!', 'Trap Beat \'Astrix\' BY Totem Records', 'Un beat para los amantes del trap melodico'),
-(2, 'Nuevo Beat Disponible!!', 'Reggaetón Beat \'La Funda\' BY Totem Records', 'Un beat creado para los amantes del movimiento y de la buena musica ');
+INSERT INTO `novedades` (`id`, `titulo`, `subtitulo`, `img_id`, `cuerpo`) VALUES
+(2, 'Nuevo Beat Disponible!!', 'Reggaetón Beat \'La Funda\' BY Totem Records', NULL, 'Un beat creado para los amantes del movimiento y de la buena musica '),
+(9, 'Prueba 22', 'Prueba', '', 'Prueba 12');
 
 -- --------------------------------------------------------
 

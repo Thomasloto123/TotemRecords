@@ -127,9 +127,9 @@ router.post('/modificar', async (req, res, next) =>{
         console.log(obj)
 
         await NovedadesModel.modificarNovedadId(obj, req.body.id);
-        res.redirect('admin/modificar');
+        res.redirect('/admin/novedades');
     } catch (error){
-        console.log(error)
+        /*console.log(error)*/
         res.render('admin/modificar',{
             layout: 'admin/layout',  
             error: true,
@@ -137,7 +137,7 @@ router.post('/modificar', async (req, res, next) =>{
         })
     }
     
-})
+}); 
 
 
 
